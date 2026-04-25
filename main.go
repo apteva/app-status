@@ -45,7 +45,11 @@ provides:
       icon: activity
       entry: /ui/StatusPanel.html
 runtime:
-  kind: service
+  kind: source
+  source:
+    repo: github.com/apteva/app-status
+    ref: main
+    entry: .
   image: ghcr.io/apteva/app-status:0.1.0
   port: 8080
   health_check: /health

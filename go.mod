@@ -3,7 +3,7 @@ module github.com/apteva/app-status
 go 1.22
 
 require (
-	github.com/apteva/app-sdk v0.0.0
+	github.com/apteva/app-sdk v0.1.0
 	modernc.org/sqlite v1.32.0
 )
 
@@ -23,5 +23,3 @@ require (
 	modernc.org/strutil v1.2.0 // indirect
 	modernc.org/token v1.1.0 // indirect
 )
-
-replace github.com/apteva/app-sdk => ../app-sdk
